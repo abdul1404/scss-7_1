@@ -1,0 +1,7 @@
+.btn-primary {
+  @include buttonStyles($primary-color, $secondary-color);
+}
+
+.btn-secondary {
+  @include buttonStyles($secondary-color, $third-color);
+}

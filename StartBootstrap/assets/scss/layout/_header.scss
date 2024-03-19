@@ -1,0 +1,31 @@
+header {
+  position: sticky;
+  z-index: 1;
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .header-logo {
+    a {
+      color: $secondary-color;
+      opacity: 0.7;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .nav-items {
+    ul {
+      display: flex;
+      li {
+        padding-left: 30px;
+        a {
+          color: $secondary-color;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

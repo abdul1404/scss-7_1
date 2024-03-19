@@ -1,0 +1,15 @@
+@mixin dividerStyles($divider-color: $primary-color) {
+  width: 45px;
+  background-color: $divider-color;
+  height: 2px;
+  border: none;
+  z-index: 1;
+}
+
+@mixin buttonStyles($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+  padding: 20px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
